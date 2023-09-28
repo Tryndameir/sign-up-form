@@ -1,0 +1,58 @@
+input:valid {
+    border: 2px solid lime;
+}
+
+input:invalid {
+    border: 2px dotted red;
+}
+
+input:focus {
+    border: 2px solid blue;
+    box-shadow: 5px 5px;
+}
+
+input:required {
+    border: 2px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.user_info {
+    background-color: white;
+}
+
+.intro-container {
+    background-color: aliceblue;
+}
+
+.logo {
+    width: 120px;
+    height: 40px;
+}
+
+@font-face {
+    font-family: "norse";
+    src: 
+        url("./norse-bold-webfont.woff") format("woff"),
+        url("./norse-bold-webfont.woff2") format("woff2");
+
+}
