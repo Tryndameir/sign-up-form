@@ -13,11 +13,17 @@ input:focus {
 body {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0;
+}
+
+.main {
+    display: flex;
     height: 100vh;
     width: 66vw;
     margin: 0 auto;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: aliceblue;
 }
 
@@ -42,11 +48,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 30vh;
+    width: fit-content;
+    background-color: white;
 }
 
 
 form {
-    width: 660px;
+    width: fit-content;
 }
 
 .user_info {
@@ -67,6 +76,8 @@ form {
 .intro-container {
     background-color: aliceblue;
     display: flex;
+    width: fit-content;
+    height: 30vh;
 }
 
 .intro-container p {
@@ -115,6 +126,7 @@ button {
     flex-direction: row;
     margin-left: 30px;
     margin-top: 30px;
+    height: 30vh;
 }
 
 .footer a {
