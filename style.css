@@ -22,7 +22,7 @@ body {
 .main {
     display: flex;
     height: 100vh;
-    width: 66vw;
+    width: 1000px;
     margin: 0 auto;
     background-color: aliceblue;
 }
@@ -48,7 +48,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 30vh;
+    height: 400px;
     width: fit-content;
     background-color: white;
 }
@@ -56,6 +56,7 @@ body {
 
 form {
     width: fit-content;
+    margin-bottom: 100px;
 }
 
 .user_info {
@@ -63,7 +64,6 @@ form {
     flex-wrap: wrap;
     background-color: white;
     padding: 20px;
-    margin-left: 30px;
     justify-content: space-around;
 }
 
@@ -71,13 +71,14 @@ form {
     display: flex;
     flex-direction: column;
     margin: 10px;
+    margin-right: 72px;
 }
 
 .intro-container {
     background-color: aliceblue;
     display: flex;
     width: fit-content;
-    height: 30vh;
+    height: 400px;
 }
 
 .intro-container p {
@@ -110,10 +111,10 @@ button {
     color: white;
     background-color: #596D48;
     border-radius: 5px;
-    padding: 5px;
-    margin-left: 30px;
-    margin-top: 50px;
+    height: 30px;
     width: 150px;
+    margin-left: 30px;
+    font-weight: bold;
 }
 
 .form-container h2 {
@@ -124,14 +125,29 @@ button {
 .footer {
     display: flex;
     flex-direction: row;
-    margin-left: 30px;
-    margin-top: 30px;
-    height: 30vh;
+    height: 400px;
 }
 
 .footer a {
-    margin-left: 5px;
     color: #596D48;
 }
 
+fieldset {
+    border: none;
+    padding: 0;
+    
+}
+
+span {
+    margin-left: 30px;
+}
+
+.prompt {
+    display: flex;
+    background-color: purple;
+    height: 40px;
+    margin: 0;
+    align-content: center;
+    
+}
 
