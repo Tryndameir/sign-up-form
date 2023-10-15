@@ -38,6 +38,12 @@ body {
     padding: 0px;
 }
 
+.logo-container {
+    width: 100%;
+    height: 18%;
+    
+}
+
 .right-container {
     display: flex;
     flex-direction: column;
@@ -91,12 +97,6 @@ form {
     margin-top: 80px;
 }
 
-.logo {
-    width: 120px;
-    height: 40px;
-    background-color: black;
-    opacity: 0.3;
-}
 
 @font-face {
     font-family: "norse";
