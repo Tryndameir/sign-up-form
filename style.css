@@ -45,6 +45,18 @@ body {
     margin-top: 129px;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.logo img {
+    height: 70%;
+    width: 20%;
+}
+
 .right-container {
     display: flex;
     flex-direction: column;
