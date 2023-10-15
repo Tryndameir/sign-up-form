@@ -47,8 +47,8 @@ body {
 .form-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 400px;
+    justify-content: space-between;
+    height: 200px;
     width: fit-content;
     background-color: white;
 }
@@ -71,14 +71,15 @@ form {
     display: flex;
     flex-direction: column;
     margin: 10px;
-    margin-right: 72px;
+    margin-right: 84px;
 }
 
 .intro-container {
     background-color: aliceblue;
     display: flex;
     width: fit-content;
-    height: 400px;
+    height: 500px;
+    align-items: center;
 }
 
 .intro-container p {
@@ -115,6 +116,8 @@ button {
     width: 150px;
     margin-left: 30px;
     font-weight: bold;
+    position: absolute;
+    margin-top: 20px;
 }
 
 .form-container h2 {
@@ -125,7 +128,7 @@ button {
 .footer {
     display: flex;
     flex-direction: row;
-    height: 400px;
+    height: 500px;
 }
 
 .footer a {
@@ -140,14 +143,15 @@ fieldset {
 
 span {
     margin-left: 30px;
+    margin-top: 130px;
+
 }
 
 .prompt {
     display: flex;
-    background-color: purple;
     height: 40px;
-    margin: 0;
     align-content: center;
+    position: relative;
     
 }
 
