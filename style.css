@@ -29,19 +29,19 @@ body {
 
 .left-container {
     display: flex;
-    background-image: url("./images/background.jpg");
-    background-size: contain;
-    width: 400px;
+    background-image: url('./images/background.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 40%;
     height: 100vh;
     margin: 0%;
     padding: 0px;
-    
 }
 
 .right-container {
     display: flex;
     flex-direction: column;
-    max-width: 800px;
+    width: 60%;
 }
 
 .form-container {
